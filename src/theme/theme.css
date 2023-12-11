@@ -1,0 +1,41 @@
+:root {
+    --skin-color:  #0492C2;
+    --bg-black-900: #F7F7F9;
+    --bg-black-100: #fdf9ff;
+    --bg-black-75: #ebebeb;
+    --bg-black-50: #f1f1f1;
+    --text-black-900: #1B1B1B;
+    --text-black-700: #DDDDDD;
+    --bg-input: #ddd;
+    --overlay: rgba(197, 197, 197, 0.35);
+    --overlay-light: rgba(197, 197, 197, 0.0);
+}
+
+body.dark {
+    --bg-black-900: #151515;
+    --bg-black-100: #1b1b1b;
+    --bg-black-75: #232323;
+    --bg-black-50: #393939;
+    --text-black-900: #f3f3f3;
+    --text-black-700: #e9e9e9;
+    --overlay: rgba(0, 0, 0, 0.35);
+    --overlay-light: rgba(0, 0, 0, 0.0);
+}
+
+body {
+    background-color: var(--bg-black-100);
+}
+
+.text-light-to-dark {
+    color: var(--bg-black-900)
+}
+
+.dark-bg {
+    background-color: var(--text-black-900);
+}
+
+
+
+.header-font {
+    font-family: 'Gafata', sans-serif;
+}

@@ -1,0 +1,74 @@
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 75%;
+    height: 2px; /* Adjust the height as needed */
+    background-color: var(--skin-color); /* Adjust the color as needed */
+    transition: width 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+.navbar-brand:hover .underline {
+    width: 100%;
+}
+
+/* Add this to Header.css */
+.nav-item {
+    position: relative;
+    overflow: hidden;
+}
+  
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--skin-color); /* Adjust the color as needed */
+    bottom: 0;
+    left: 50%;
+    transition: width 0.3s ease; /* Adjust the animation speed as needed */
+    transform: translateX(-50%);
+}
+  
+.nav-item:hover::after {
+    width: 50%;
+}
+  
+
+
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+      font-size: 1.5rem; /* Adjust the font size as needed */
+      text-decoration: underline;
+    }
+
+    .border-1::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid var(--skin-color);
+        border-right: 5px solid var(--skin-color);
+        bottom: 0;
+        left: 95%;
+    }
+    .border-2::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-top: 5px solid var(--skin-color);
+        border-right: 5px solid var(--skin-color);
+        top: 0;
+        right: 0;
+    }
+}
+  
+
+
+
+  
