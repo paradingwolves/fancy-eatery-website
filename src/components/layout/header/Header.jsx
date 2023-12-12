@@ -86,7 +86,7 @@ const Header = () => {
                     ></iframe>
                   </div>
                   <div className="text-white my-5">
-                    <p className="fs-3 fw-bold ">Karaoke Every Friday Night</p>
+                    <p className="fs-3 fw-bold ">Karaoke Every Friday Night!</p>
                     <p className="fs-4 my-3">Hosted by <strong className='primary-font'>Dawn Marie</strong></p>
                     <p className="fs-5 my-3"><strong>Special</strong>: $6.50 pints of Kronenbourg 1664 and Kronenbourg Blanc</p>
                     <p className="fs-5 my-3"><strong>Time</strong>: 8:30pm - 12:30am</p>

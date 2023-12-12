@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3 text-center mb-3">
-            <h5 className='fw-bold footer-font fs-3 mb-3 text-white underline'>Contact Us</h5>
+            <h5 className='fw-bold footer-font fs-3 mb-3 underline'>Contact Us</h5>
             <p>
               <i className="fas fa-phone-alt me-2"></i>
               <a href="tel:+1234567890" className="text-white text-decoration-none">123-456-7890</a>
