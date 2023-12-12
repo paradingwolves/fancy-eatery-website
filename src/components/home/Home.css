@@ -1,0 +1,8 @@
+.carousel-inner {
+  max-height: 750px; /* Set a fixed height for the carousel container */
+}
+
+.carousel-image {
+  height: 100%; /* Make sure images fill the container height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}

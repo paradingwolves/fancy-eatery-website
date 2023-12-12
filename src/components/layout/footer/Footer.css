@@ -1,0 +1,35 @@
+/* Footer.css */
+
+footer {
+    position: relative;
+    background-image: url('riversedgefooter.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    transition: height 0.3s ease;
+    height: auto;
+    overflow: hidden;
+}
+  
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+  
+/* footer:hover {
+    height: 200px;
+} */
+  
+.col-md-4 h5,
+.col-md-4 p {
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value for darkness */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 5px 0; /* Adjust margin as needed */
+}
