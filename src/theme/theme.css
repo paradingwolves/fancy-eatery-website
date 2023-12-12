@@ -39,3 +39,7 @@ body {
 .header-font, .footer-font {
     font-family: 'Gafata', sans-serif;
 }
+
+.primary-font {
+    color: var(--skin-color)
+}

@@ -5,11 +5,11 @@ const Footer = () => {
 
 
   return (
-    <footer className="bg-dark text-white p-4">
+    <footer className="bg-dark text-white-emphasis p-4">
       <div className="container">
         <div className="row">
           <div className="col-md-3 text-center mb-3">
-            <h5 className='fw-bold footer-font fs-3'>Contact Us</h5>
+            <h5 className='fw-bold footer-font fs-3 mb-3 text-white underline'>Contact Us</h5>
             <p>
               <i className="fas fa-phone-alt me-2"></i>
               <a href="tel:+1234567890" className="text-white text-decoration-none">123-456-7890</a>
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-3 text-center mb-3">
-            <h5 className='fw-bold footer-font fs-3'>Visit Us</h5>
+            <h5 className='fw-bold footer-font fs-3 mb-3'>Visit Us</h5>
             <p>
               <i className="fas fa-map-marker-alt me-2"></i>
               <a
@@ -35,7 +35,7 @@ const Footer = () => {
             {/* Add links for Apple Maps and OpenStreetMap if needed */}
           </div>
           <div className="col-md-3 text-center">
-            <h5 className='fw-bold footer-font fs-3'>Connect With Us</h5>
+            <h5 className='fw-bold footer-font fs-3 mb-3'>Connect With Us</h5>
             <p>
               <a
                 href="https://www.facebook.com/RiversEdgeWindsor/"

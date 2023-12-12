@@ -6,3 +6,8 @@
   height: 100%; /* Make sure images fill the container height */
   object-fit: cover; /* Maintain aspect ratio and cover the entire container */
 }
+
+#carouselExample {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the carousel horizontally */
+}

@@ -20,7 +20,7 @@ const Layout = () => {
   
   
     return (
-      <div>
+      <div className='bg-secondary'>
         <Header />
         <Outlet />
         <Footer />
