@@ -10,9 +10,9 @@ footer {
     transition: height 0.3s ease;
     height: auto;
     overflow: hidden;
-}
+  }
   
-footer::before {
+  footer::before {
     content: "";
     position: absolute;
     top: 0;
@@ -21,15 +21,8 @@ footer::before {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
-}
+  }
   
-/* footer:hover {
-    height: 200px;
-} */
+
+
   
-.col-md-4 h5,
-.col-md-4 p {
-    background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value for darkness */
-    padding: 10px; /* Adjust padding as needed */
-    margin: 5px 0; /* Adjust margin as needed */
-}

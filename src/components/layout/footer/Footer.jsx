@@ -8,42 +8,42 @@ const Footer = () => {
     <footer className="bg-dark text-white p-4">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 text-center mb-3">
-            <h5>Contact Us</h5>
+          <div className="col-md-3 text-center mb-3">
+            <h5 className='fw-bold footer-font fs-3'>Contact Us</h5>
             <p>
               <i className="fas fa-phone-alt me-2"></i>
-              <a href="tel:+1234567890" className="text-white">123-456-7890</a>
+              <a href="tel:+1234567890" className="text-white text-decoration-none">123-456-7890</a>
             </p>
             <p>
               <i className="fas fa-envelope me-2"></i>
-              <a href="mailto:info@example.com" className="text-white">info@example.com</a>
+              <a href="mailto:info@example.com" className="text-white text-decoration-none">info@example.com</a>
             </p>
           </div>
-          <div className="col-md-4 text-center mb-3">
-            <h5>Visit Us</h5>
+          <div className="col-md-3 text-center mb-3">
+            <h5 className='fw-bold footer-font fs-3'>Visit Us</h5>
             <p>
               <i className="fas fa-map-marker-alt me-2"></i>
               <a
-                href="https://maps.google.com/?q=Your+Location"
+                href="https://maps.app.goo.gl/vVy8tLNGZ2Z3TpV47"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="text-white text-decoration-none"
               >
                 View on Google Maps
               </a>
             </p>
             {/* Add links for Apple Maps and OpenStreetMap if needed */}
           </div>
-          <div className="col-md-4 text-center">
-            <h5>Connect With Us</h5>
+          <div className="col-md-3 text-center">
+            <h5 className='fw-bold footer-font fs-3'>Connect With Us</h5>
             <p>
               <a
                 href="https://www.facebook.com/RiversEdgeWindsor/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="text-white text-decoration-none"
               >
-                <i className="fab fa-facebook-square me-2"></i>Facebook
+                <i className="fab fa-facebook m-2"></i>Facebook
               </a>
             </p>
             <p>
@@ -51,9 +51,9 @@ const Footer = () => {
                 href="https://www.instagram.com/riversedgewindsor/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="text-white text-decoration-none"
               >
-                <i className="fab fa-instagram-square me-2"></i>Instagram
+                <i className="fab fa-instagram m-2 "></i>Instagram
               </a>
             </p>
             {/* Add other social media links if needed */}
