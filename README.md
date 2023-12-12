@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# River's Edge Tap & Table Lounge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the unofficial webpage for River's Edge Tap & Table Lounge in Windsor, Ontario!
 
-## Available Scripts
+## About
+River's Edge Tap & Table Lounge is a cozy place where you can enjoy great food, drinks, and a pleasant atmosphere. This unofficial webpage serves as a temporary online presence until further notice.
 
-In the project directory, you can run:
+## Access the Site
+To explore our offerings, visit the unofficial webpage: [River's Edge Tap & Table Lounge](https://fancy-eatery-website.vercel.app)
 
-### `npm start`
+## Location
+- **Name:** River's Edge Tap & Table
+- **City:** Windsor, Ontario
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Reporting Bugs
+If you encounter any issues or have suggestions for improvement, please help us by reporting bugs. You can notify the developers by:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Opening an issue on the [GitHub repository](https://github.com/your-username/your-repo)
+- Sending an email to [developers@example.com](mailto:developers@example.com)
 
-### `npm test`
+Your feedback is valuable, and we appreciate your help in making our online experience better.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Enjoy your virtual visit to River's Edge Tap & Table Lounge!
