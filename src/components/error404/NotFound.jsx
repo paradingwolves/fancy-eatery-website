@@ -9,20 +9,36 @@ const NotFound = () => {
   useEffect(() => {
     const bouncingWayne = bouncingWayneRef.current;
 
-    const handleBounceAndColorChange = () => {
-      const rect = bouncingWayne.getBoundingClientRect();
-
-      const isTouchingTop = rect.top <= 0;
-      const isTouchingBottom = rect.bottom >= window.innerHeight;
-
-      if (isTouchingTop || isTouchingBottom) {
-        // Change image color logic here
-        const newColor = getRandomColor();
-        bouncingWayne.querySelector('img').style.filter = `hue-rotate(${newColor}deg)`;
-      }
+    const getRandomNumberInRange = (min, max) => {
+      return Math.random() * (max - min) + min;
     };
 
-    const animationInterval = setInterval(handleBounceAndColorChange, 100);
+    const handleRandomBounce = () => {
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const boundingBox = bouncingWayne.getBoundingClientRect();
+    
+      // Calculate the maximum translate values to keep the image within the visible area
+      const maxX = viewportWidth - boundingBox.width;
+      const maxY = viewportHeight - boundingBox.height;
+    
+      // Calculate random translate values within the visible area
+      const randomTranslateX = Math.random() * maxX - boundingBox.width / getRandomNumberInRange(1, 2);
+      const randomTranslateY = Math.random() * maxY - boundingBox.height / getRandomNumberInRange(1, 2);
+    
+      const newColor = getRandomColor();
+    
+      bouncingWayne.style.transition = 'transform 0.5s ease'; // Adjust the transition duration as needed
+      bouncingWayne.style.transform = `translate(${randomTranslateX}px, ${randomTranslateY}px)`;
+      bouncingWayne.querySelector('img').style.filter = `hue-rotate(${newColor}deg)`;
+    };
+
+    const animationInterval = setInterval(() => {
+      handleRandomBounce();
+      setTimeout(() => {
+        bouncingWayne.style.transition = 'none'; // Remove transition after slide to prevent continuous sliding
+      }, 500); // Adjust the timeout to match the transition duration
+    }, 1000); // Adjust the interval as needed
 
     return () => {
       clearInterval(animationInterval);
@@ -36,10 +52,12 @@ const NotFound = () => {
     <div>
       <Header />
       <div className="bouncing-wayne-wrapper">
-        <div className="bouncing-wayne" ref={bouncingWayneRef}>
+        <div className="bouncing-wayne mx-5" ref={bouncingWayneRef}>
           <img src="../images/wayne.png" alt="The GOAT" />
-          <p className="fs-3 text-dark text-center">Can't find the page you're looking for there, <strong>bud</strong>.</p>
         </div>
+        <p className="fs-3 mt-5 text-dark text-center stationary-text">
+          Can't find the page you're looking for there, <strong>bud</strong>.
+        </p>
       </div>
       <Footer />
     </div>
