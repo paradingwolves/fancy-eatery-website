@@ -31,9 +31,10 @@ const Header = () => {
     <header className="bg-dark text-white header-font">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <Link to="/" className="navbar-brand mb-2 fs-3" style={{ position: 'relative' }}>
-            River's Edge<span className="underline"></span>
-          </Link>
+        <Link to="/" className="navbar-brand mb-2 fs-3 d-flex align-items-center">
+          <img src="../images/header.png" alt="" className="logo-img" />
+        </Link>
+
           <button
             className="navbar-toggler"
             type="button"
