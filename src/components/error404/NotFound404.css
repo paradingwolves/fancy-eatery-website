@@ -1,0 +1,31 @@
+.bouncing-wayne-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .bouncing-wayne {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounce 4s infinite alternate;
+    width: 33%;
+  }
+  
+  .bouncing-wayne img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translate(-100%, -100%);
+    }
+    25%, 75% {
+      transform: translate(-100%, -100%) translateY(-100%);
+    }
+    50% {
+      transform: translate(-100%, -100%) translateY(-20%) translateX(100%);
+    }
+  }
