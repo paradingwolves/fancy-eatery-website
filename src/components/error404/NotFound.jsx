@@ -23,8 +23,8 @@ const NotFound = () => {
       const maxY = viewportHeight - boundingBox.height;
     
       // Calculate random translate values within the visible area
-      const randomTranslateX = Math.random() * maxX - boundingBox.width / getRandomNumberInRange(1, 2);
-      const randomTranslateY = Math.random() * maxY - boundingBox.height / getRandomNumberInRange(1, 2);
+      const randomTranslateX = Math.random() * maxX - boundingBox.width / getRandomNumberInRange(1, 3);
+      const randomTranslateY = Math.random() * maxY - boundingBox.height / getRandomNumberInRange(1, 5);
     
       const newColor = getRandomColor();
     
